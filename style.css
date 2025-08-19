@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+nav{
+    height: 90%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    
+}
+
+#meesho-logo{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#search-container{
+    background-color: #fff;
+    width: 40%;
+    height: 40px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+
+#search-container input{
+    height: 95%;
+    width: 80%;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+#suppiler-container{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#investor-container{
+    display:flex;
+}
+
+#profile-container{
+    display: block;
+}
+#profile-container a{
+    color: black;
+    text-decoration: none;
+    
+}
+#profile-container:hover{
+    text-decoration: underline;
+    color: hotpink;
+}
+
+#cart-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#messho-body img{
+    width: 100%;
+}
+
+marquee{
+    background-color: yellow;
+    height: 30px;
+    color: red;
+    font-size: larger;
+    font-weight: 900;
+}
+.gold{
+    width: 100%;
+    display: flex;
+}
+
+.gold img{
+    
+    width: 100%;
+}
+
+.different-items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8,10%);
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.different div{
+    margin: 5px;
+    padding-left: 15px;
+    height: 30px;
+
+}
+
+#declare{
+    background-color: hotpink;
+    border: 1px solid black;
+    height: 60px;
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#declares{
+    background-color: pink;
+    border: 1px solid;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bolder;
+}
+
+#declares div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
